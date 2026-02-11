@@ -87,7 +87,11 @@ Resnet50 + LSTM achieved the best performance.
 
 blood-group-detection-using-fingerprint/
 │
+
 ├── Resnet_lstm.ipynb
+
 ├── Mobilenet_gru.ipynb
+
 ├── EfficientNetB0+gru.ipynb
+
 ├── README.md
