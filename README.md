@@ -85,7 +85,10 @@ The performance of different models is shown below:
 | MobileNet + GRU       |  92.75%        |     68.03%           |    72.20%      |
 | EfficientNetB0 + GRU  |  52.48%        |     63.14%           |    64.06%      |
 
-ResNet50 + LSTM achieved the best performance with highest test accuracy of 72.28% .
+ResNet50 + LSTM achieved the best performance with highest test accuracy of 72.28%.
+
+The difference between training and validation accuracy indicates some overfitting, which can be improved in future using regularization, hyperparameter tuning, and larger datasets.
+
 
 
 ---
