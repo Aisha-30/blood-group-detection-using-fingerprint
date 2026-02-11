@@ -77,9 +77,16 @@ Fingerprint Image
 
 ## Results
 
-The models achieved high accuracy in blood group prediction.
+The performance of different models is shown below:
 
-Resnet50 + LSTM achieved the best performance.
+| Model                 | Train Accuracy | Validation Accuracy  | Test Accuracy  |
+|-----------------------|----------------|--------------------- |----------------|
+| ResNet50 + LSTM       |  96.04%        |     71.67%           |    72.28%      |
+| MobileNet + GRU       |  92.75%        |     68.03%           |    72.20%      |
+| EfficientNetB0 + GRU  |  52.48%        |     63.14%           |    64.06%      |
+
+ResNet50 + LSTM achieved the best performance with highest test accuracy of 72.28% .
+
 
 ---
 
