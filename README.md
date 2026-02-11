@@ -86,7 +86,7 @@ Resnet50 + LSTM achieved the best performance.
 ## Project Structure
 
 blood-group-detection-using-fingerprint/
-│
+
 
 ├── Resnet_lstm.ipynb
 
